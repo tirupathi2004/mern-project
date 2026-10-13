@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Contactform from './contactform'
-import Contactlist from './contactlist'
+import Contactlist from './Contactlist'
 import API from './api'
 import "./App.css"
 const App = () => {

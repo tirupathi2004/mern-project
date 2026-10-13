@@ -3,6 +3,7 @@ const mongoose=require("mongoose")
 const cors=require("cors")
 const connectdb=require("./config/db")
 const Contact=require("./contact");
+require("dotenv").config();
 const app=express();
 connectdb();
 app.use(cors());
